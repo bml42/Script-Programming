@@ -1,0 +1,39 @@
+/* type selectors */
+article, aside, figure, figcaption, footer, header, nav, section {
+    display: block;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 87.5%;
+	width: 70%;
+	margin: 0 auto;
+}
+section {
+	padding: 15px 25px;
+}
+
+h1 {
+	padding-top: 1em;
+}
+h2 {
+	padding-top: 1em;
+	padding-bottom: .5em;
+	font-size: 110%;
+}
+p {
+	padding: 25px;
+}
+.red {color: red}
+.green {color: green}
+.blue {color: blue}
+.yellow {color: yellow}
+.orange {color: orange}
+
+#googleResults{
+    position:relative;
+    width:100%;
+}

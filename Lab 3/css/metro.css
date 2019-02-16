@@ -1,0 +1,21 @@
+#header {
+  margin-bottom: 20px;
+}
+
+.beat {
+  width: 100px;
+  height: 50px;
+  margin-bottom: 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+.inactive {
+  background-color: #d3d3d3;
+  border: 1px solid #000000;
+}
+
+.active {
+  background-color: #FFD1DC;;
+  border : 3px solid #FF0000;
+}

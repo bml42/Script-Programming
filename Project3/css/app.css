@@ -1,0 +1,51 @@
+body {
+  font-family: sans-serif;
+}
+
+/* The header at the top of the page */
+section#header {
+  clear: both; /* Tell it to not be affected by the floating containers below */
+}
+
+/* The containers for the lists */
+div.list-container {
+  float: left;      /* Makes the containers display side-by-side */
+  min-width: 200px; /* Sets the width to a minimum value of 200px */
+  padding: 5px 30px;/* Padding at top and bottom is 5px, left and right is 30px */
+  margin: 5px;      /* Spacing between the containers is 5px all around */
+  border: 1px solid black;/* A 1px solid black border around the containers */
+}
+
+/* All display lists */
+ul.list {
+  padding-left: 0px;
+}
+
+/* The results list */
+ul#results-list {
+  padding-top: 37px; /* Adding padding to the top so it'll line up */
+}
+
+/* List items */
+li {
+  padding: 5px;
+  border: 1px solid gray;
+  list-style: none;
+}
+
+/* Item coloring styles */
+.list-one-item {
+  background-color: #B4CFEC;
+}
+
+.list-two-item {
+  background-color: #FDFD96;
+}
+
+.greater {
+  background-color: #BDECB6;
+}
+
+.lower {
+  background-color: #FFD1DC;
+}

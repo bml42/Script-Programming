@@ -1,0 +1,56 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Project 3: Grade Comparison Tool</title>
+  <meta name="description" content="Project 3">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body>
+  <!-- The header at the top of the page -->
+  <section id="header">
+    <h1>Grade Comparison Tool</h1>
+    <button name="compare" id="compare">Compare</button>
+    <button name="reset" id="reset">Reset</button>
+  </section>
+
+  <!-- The first list -->
+  <div id="listOne" class="list-container">
+    <h3>Semester 1 (max score 100)</h3>
+    <input type="text" name="item-field-1" id="item-field-1" />
+    <button name="add-item-1" id="add-item-1">Add Test Score</button>
+    <ul class="list">
+      <li class="list-one-item">100</li>
+      <li class="list-one-item">80</li>
+      <li class="list-one-item">Score1</li>
+    </ul>
+  </div>
+
+  <!-- The second list -->
+  <div id="listTwo" class="list-container">
+    <h3>Semester 2 (max score 100)</h3>
+    <input type="text" name="item-field-1" id="item-field-2" />
+    <button name="add-item-2" id="add-item-2">Add Test Score</button>
+    <ul class="list">
+      <li class="list-two-item">80</li>
+      <li class="list-two-item">100</li>
+      <li class="list-two-item">Score2</li>
+    </ul>
+  </div>
+
+  <!-- The comparison list -->
+  <div id="comparisons" class="list-container">
+    <h3>Comparison</h3>
+    <ul id="results-list" class="list">
+      <li class="lower">-20</li>
+      <li class="greater">20</li>
+      <li>Invalid Score!</li>
+    </ul>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
